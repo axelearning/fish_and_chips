@@ -1,9 +1,15 @@
 # Classification des poissons de la Réunion 🐠
 À travers ce projet j'ai créé une application web qui va reconnaître les poissons du lagon de l'île de la Reunion. Le fonctionnement de l'application est simple. (a) L'utilisateur upload une photo de poisson. (b) Cette photo est transmise à l’algorithme de Deep Learning qui réalise une prédiction. (c) Cette prédiction est retournée à l'utilisateur
 
-### **👉 [tester l'app](https://fish-classifier-reunion-island.herokuapp.com/)**
+<h3 align="center">
+  <span>🙌 </span>
+  <a href="https://fish-classifier-reunion-island.herokuapp.com/">tester l'app</a>
+</h3>
 
-→ gif de l'app
+<p align="center">
+  <img src='img/app.gif' alt="GIF de l'image" width=750>
+</p>
+
 
 Voici les différentes étapes mise en place afin de réaliser ce projet:
 
@@ -21,10 +27,18 @@ Voici les différentes étapes mise en place afin de réaliser ce projet:
 ## **Pourquoi ce projet ?**
 Dans un premier temps pour *développer mes compétences en intelligence artificielle* puis pour *passer plus de temps avec mon grand père*, fan de snorkeling, il passe beaucoup de temps à observer les poissons du lagon. Il m'a fait découvrir son monde (🐠) je lui est fait découvrir le mien (🤖)! 
 
-Après lui avoir expliquer le projet on est parti recueillir des photos dans le lagon ensemble  afin de tester les performances du modèles sur des photos en production. En voici quelque une: 
-![img1](img/pic1.JPG)
-![img2](img/pic2.JPG)
-![img3](img/pic3.JPG)
-![img4](img/pic4.JPG)
-![img5](img/pic5.JPG)
-![img6](img/pic6.JPG)
+Après lui avoir expliquer le projet on est parti recueillir des photos dans le lagon ensemble  afin de tester les performances du modèles sur des photos en production. 
+
+<details><summary><b>Les photos de l’expédition</b></summary>
+  
+  <p align="center">
+    <img src='img/pic2.JPG' alt="GIF de l'image" width=750>
+    <img src='img/pic3.JPG' alt="GIF de l'image" width=750>
+    <img src='img/pic1.JPG' alt="GIF de l'image" width=750>
+    <img src='img/pic4.JPG' alt="GIF de l'image" width=750>
+    <img src='img/pic5.JPG' alt="GIF de l'image" width=750>
+    <img src='img/pic6.JPG' alt="GIF de l'image" width=750>
+  </p>
+
+
+ </details>
