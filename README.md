@@ -2,7 +2,7 @@
 À travers ce projet j'ai créé une application web qui va reconnaître les poissons du lagon de l'île de la Reunion. Le fonctionnement de l'application est simple. (a) L'utilisateur upload une photo de poisson. (b) Cette photo est transmise à l’algorithme de Deep Learning qui réalise une prédiction. (c) Cette prédiction est retournée à l'utilisateur
 
 <h3 align="center">
-  <span>🙌 </span>
+  <span>👉 </span>
   <a href="https://fish-classifier-reunion-island.herokuapp.com/">tester l'app</a>
 </h3>
 
