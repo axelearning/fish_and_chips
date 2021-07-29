@@ -25,7 +25,7 @@ Voici les différentes étapes mise en place afin de réaliser ce projet:
 - **Déployer une application de machine learning** avec Voila et Heroku
 
 ## **Pourquoi ce projet ?**
-Dans un premier temps pour *développer mes compétences en intelligence artificielle* puis pour *passer plus de temps avec mon grand père*, fan de snorkeling, il passe beaucoup de temps à observer les poissons du lagon. Il m'a fait découvrir son monde (🐠) je lui est fait découvrir le mien (🤖)! 
+Dans un premier temps pour `développer mes compétences en intelligence artificielle` puis pour `passer plus de temps avec mon grand père`, fan de snorkeling, il passe beaucoup de temps à observer les poissons du lagon. Il m'a fait découvrir son monde (🐠) je lui est fait découvrir le mien (🤖)! 
 
 Après lui avoir expliquer le projet on est parti recueillir des photos dans le lagon ensemble  afin de tester les performances du modèles sur des photos en production. 
 
