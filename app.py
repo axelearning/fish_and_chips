@@ -36,7 +36,7 @@ def create_barchart(value, index):
     return fig
 
 
-FILE = "resnet34.pkl"
+FILE = "resnet50.pkl"
 model = load_learner(FILE)
 
 st.title("Fish Classifier 🐠")
