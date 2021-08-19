@@ -1,13 +1,22 @@
+import json
 import streamlit as st
-from PIL import Image
-from fastai.vision.all import *
-from fastai.vision.widgets import *
+import pandas as pd
 import plotly.graph_objects as go
+from fastai.vision.all import load_learner
+from PIL import Image
+import numpy as np
 
-# Load an Image
+MODEL_FILE_NAME = "resnet50.pkl"
+
+
 @st.cache
 def load_image(image_file):
-    return PILImage.create(image_file)
+    return Image.open(image_file)
+
+
+@st.cache
+def load_model():
+    return load_learner(MODEL_FILE_NAME)
 
 
 def create_barchart(value, index):
@@ -36,9 +45,6 @@ def create_barchart(value, index):
     return fig
 
 
-FILE = "resnet50.pkl"
-model = load_learner(FILE)
-
 st.title("Fish Classifier 🐠")
 st.write("a simple application to classify  fish from the Reunion Island’s lagoon")
 image_file = st.file_uploader("", type=["png", "jpg", "jpeg"])
@@ -46,9 +52,12 @@ image_file = st.file_uploader("", type=["png", "jpg", "jpeg"])
 if image_file:
 
     image = load_image(image_file)
-    st.image(image)
+    model = load_learner(MODEL_FILE_NAME)
+    tensor = np.array(image)
 
-    pred, _, probs = model.predict(image)
+    pred, _, probs = model.predict(tensor)
+
+    st.image(image)
     st.title(pred)
 
     fig = create_barchart(value=probs, index=model.dls.vocab)
