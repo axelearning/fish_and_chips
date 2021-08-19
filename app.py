@@ -1,22 +1,18 @@
-import json
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-from fastai.vision.all import load_learner
-from PIL import Image
-import numpy as np
+from fastai.vision.all import PILImage, load_learner
+
 
 MODEL_FILE_NAME = "resnet50.pkl"
 
 
 @st.cache
-def load_image(image_file):
-    return Image.open(image_file)
+def load_image(image_file): return PILImage.create(image_file)
 
 
 @st.cache
-def load_model():
-    return load_learner(MODEL_FILE_NAME)
+def load_model(): return load_learner(MODEL_FILE_NAME)
 
 
 def create_barchart(value, index):
@@ -53,9 +49,8 @@ if image_file:
 
     image = load_image(image_file)
     model = load_learner(MODEL_FILE_NAME)
-    tensor = np.array(image)
 
-    pred, _, probs = model.predict(tensor)
+    pred, _, probs = model.predict(image)
 
     st.image(image)
     st.title(pred)
