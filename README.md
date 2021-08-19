@@ -12,7 +12,7 @@
 </p>
 
 
-Voici les différentes étapes mise en place afin de réaliser ce projet:
+Voici les différentes étapes misent en place afin de réaliser ce projet:
 
 1. Collecter les données | [get_the_data.ipynb](https://colab.research.google.com/drive/1ybB06Y8hXg-3iuXqVMnTCBRF4LGhDJCQ?usp=sharing) 
 2. Entraîner le modèle de classification | [modeling.ipynb](https://colab.research.google.com/drive/1UptvOjCSB7BK8Af8NTRGJJm8UPMfy51U?usp=sharing)
@@ -20,15 +20,15 @@ Voici les différentes étapes mise en place afin de réaliser ce projet:
 
 ## **Qu'est ce que j'ai appris ?**
 
-- **Créer son propre dataset** en récupérant des photos depuis l'API d'un moteur de recherche, dans mon cas Bing search API
+- **Créer son propre dataset** en récupérant des photos depuis Bing search API
 - **Utiliser un des modèles à la pointe de la technologie en deep learning** : [Resnet50](https://en.wikipedia.org/wiki/Residual_neural_network) et y appliquer du **transfert learning** pour permettre au modèle  de s'adapter à notre problème
 - **Comprendre les erreurs du modèl**e et améliorer ces performances
 - **Déployer une application de machine learning** avec Voila et Heroku
 
 ## **Pourquoi ce projet ?**
-Dans un premier temps pour `développer mes compétences en intelligence artificielle` puis pour `passer plus de temps avec mon grand père`, fan de snorkeling, il passe beaucoup de temps à observer les poissons du lagon. Il m'a fait découvrir son monde (🐠) je lui est fait découvrir le mien (🤖)! 
+Dans un premier temps pour `développer mes compétences en intelligence artificielle` puis pour `passer plus de temps avec mon grand père`, fan de snorkeling, il passe beaucoup de temps à observer les poissons du lagon. Il m'a fait découvrir son monde (🐠) je lui ai fait découvrir le mien (🤖)! 
 
-Après lui avoir expliquer le projet on est parti recueillir des photos dans le lagon ensemble  afin de tester les performances du modèles sur des photos en production. 
+Après lui avoir expliqué le projet on est partis recueillir des photos dans le lagon ensemble  afin de tester les performances du modèle sur des photos en production. 
 
 <details><summary><b>Les photos de l’expédition</b></summary>
   
