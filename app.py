@@ -8,11 +8,13 @@ MODEL_FILE_NAME = "resnet50.pkl"
 
 
 @st.cache
-def load_image(image_file): return PILImage.create(image_file)
+def load_image(image_file):
+    return PILImage.create(image_file)
 
 
 @st.cache
-def load_model(): return load_learner(MODEL_FILE_NAME)
+def load_model():
+    return load_learner(MODEL_FILE_NAME)
 
 
 def create_barchart(value, index):
@@ -43,16 +45,26 @@ def create_barchart(value, index):
 
 st.title("Fish Classifier 🐠")
 st.write("a simple application to classify  fish from the Reunion Island’s lagoon")
+st.markdown(
+    "👉 [take a look at the Fishes](https://grizzly-cress-b32.notion.site/Fishes-b1e1c38339bc49249cf70fbcb2836944)"
+)
 image_file = st.file_uploader("", type=["png", "jpg", "jpeg"])
 
-if image_file:
-
+# Did the user upload an image?
+if not image_file:
+    st.warning("Please upload an image.")
+    st.stop()
+else:
     image = load_image(image_file)
+    st.image(image, use_column_width=True)
+    pred_button = st.button("Predict")
+
+# Did the user press the predict button?
+if pred_button:
     model = load_learner(MODEL_FILE_NAME)
 
     pred, _, probs = model.predict(image)
 
-    st.image(image)
     st.title(pred)
 
     fig = create_barchart(value=probs, index=model.dls.vocab)

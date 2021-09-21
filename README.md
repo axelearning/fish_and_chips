@@ -1,6 +1,11 @@
 # Fish classifier 🐠
 
-Through this project I have created a web application which recognize the fish from Reunion Island's lagoon. The way the application works is simple. (a) The user uploads a photo of a fish. (b) This photo is sent to the Deep Learning algorithm which makes a prediction. (c) This prediction is returned to the user
+Through this project I have created a web application which recognize the fish from Reunion Island's lagoon. The way the application works is simple:
+
+1. The user uploads a photo of a fish
+2. This photo is sent to the Deep Learning algorithm which makes a prediction
+3. This prediction is returned to the user
+   <br>
 
 <h3 align="center">
   <span>🕹 </span>
