@@ -2,15 +2,20 @@
 
 Through this project I have created a web application which recognize the fish from Reunion Island's lagoon. The way the application works is simple. (a) The user uploads a photo of a fish. (b) This photo is sent to the Deep Learning algorithm which makes a prediction. (c) This prediction is returned to the user
 
-<h3 align="left">
-  <span>👉 </span>
-  <a href="https://share.streamlit.io/axelearning/fish_and_chips/app.py">test the app</a>
+<h3 align="center">
+  <span>🕹 </span>
+  <a href="https://share.streamlit.io/axelearning/fish_and_chips/app.py">Test the app</a>
 </h3>
 <br>
 
 <p align="center">
   <img src='img/app.gif' alt="GIF of the image" width=750>
 </p>
+<h3 align="center">
+  <span>🎣 </span>
+  <a href="https://grizzly-cress-b32.notion.site/Fishes-b1e1c38339bc49249cf70fbcb2836944">Fishes used to train the model</a>
+</h3>
+<br>
 
 Here are the different steps put in place in order to realize this project:
 
