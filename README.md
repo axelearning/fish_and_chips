@@ -18,7 +18,7 @@ Through this project I have created a web application which recognize the fish f
 </p>
 <h3 align="center">
   <span>🎣 </span>
-  <a href="https://grizzly-cress-b32.notion.site/Fishes-b1e1c38339bc49249cf70fbcb2836944">Fishes used to train the model</a>
+  <a href="https://axelrasse.notion.site/Fishes-b1e1c38339bc49249cf70fbcb2836944">Fishes used to train the model</a>
 </h3>
 <br>
 
